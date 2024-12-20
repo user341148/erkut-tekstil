@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Websitemiz</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- CSS dosyasına bağlantı -->
+    <script src="js/script.js" defer></script>
+    <script src="js/2.js" defer></script>
+    <script src="js/slider.js" defer></script>
+    <script src="js/3.js" defer></script>
+    <script src="js/4.js" defer></script>
+    <script src="js/5.js" defer></script> 
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.jpeg" alt="Websitesi Logosu">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about-us">Hakkımızda</a></li>
+                <li><a href="#vision">Vizyon</a></li>
+                <li><a href="#gallery">Galeri</a></li>
+                <li><a href="#contact-us">Bize Ulaşın</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about-us">
+        <div class="text-container">
+        <h1>Hakkımızda</h1>
+        <p>
+        Erkut Çağdaş Tekstil, 20 yılı aşkın süredir tekstil sektöründe faaliyet gösteren, ithalat ve ihracat alanında uzmanlaşmış bir firmadır. Kurulduğumuz günden bu yana, kaliteli ürünlerimiz ve müşteri odaklı hizmet anlayışımız sayesinde sektörde güvenilir bir konum elde ettik. Türkiye'nin ve dünyanın dört bir yanına yayılan iş ağımızla, müşterilerimizin beklentilerini karşılayan yenilikçi ve estetik çözümler sunmaktan gurur duyuyoruz.Geniş ürün yelpazemiz, hem klasik hem de modern tasarımları bir araya getirerek farklı zevklere hitap etmektedir. Moda trendlerini yakından takip eden uzman ekibimiz, müşterilerimizin ihtiyaçlarına en uygun ürünleri sunabilmek için sürekli olarak yenilikçi tasarımlar geliştirmektedir. Kumaş, hazır giyim ve aksesuar alanlarındaki çeşitli ürünlerimizle, bireysel müşterilerden büyük ölçekli işletmelere kadar geniş bir kitleye hizmet veriyoruz.Yılların verdiği deneyimle, yalnızca ürünlerimizi değil, iş süreçlerimizi de sürekli olarak geliştiriyoruz. Tedarik zincirimizden üretim aşamalarına kadar her detayda kaliteyi ön planda tutuyoruz. Yüksek standartlardaki üretim süreçlerimiz ve çevre dostu yaklaşımımızla sürdürülebilir bir gelecek için çalışıyoruz. 
+        </p>
+        </div>
+        <div class="image-container">
+        <img id="about-image" src="img/1.jpeg" alt="Hakkımızda Görseli" style="width:80%; max-width: 300px;" onclick="changeImage()">
+        <div class="image-tooltip">Resmi değiştirmek için tıkla</div>
+    </div>
+    </section>
+
+
+    <section id="vision">
+        <div class="text-container">
+        <h1>Vizyon</h1>
+        <p>Erkut Çağdaş Tekstil olarak vizyonumuz, tekstil sektöründe yenilikçi, sürdürülebilir ve müşteri odaklı bir lider marka olmaktır. Globalleşen dünyada değişen ve gelişen moda trendlerini yakından takip ederek, estetik ve kaliteyi bir araya getiren ürünlerimizle sektöre yön vermeyi hedefliyoruz. Yenilikçi tasarımlarımız ve çevre dostu üretim süreçlerimizle, sadece müşterilerimiz için değil, aynı zamanda çevremiz ve geleceğimiz için değer yaratmayı ilke ediniyoruz.Kendi alanında öncü bir marka olmanın yanı sıra, sektörde kalıcı bir fark yaratan, güvenilir ve tercih edilen bir çözüm ortağı olmayı amaçlıyoruz. Müşterilerimizin ihtiyaç ve beklentilerini en iyi şekilde anlayarak, onlara yalnızca ürün değil, aynı zamanda mükemmel bir hizmet deneyimi sunmayı hedefliyoruz. Sektörün dinamiklerini iyi kavrayan uzman ekibimizle, inovasyonu işimizin merkezine koyarak hem yerel hem de uluslararası pazarlarda adımızı başarıyla duyurmak için çalışıyoruz.Vizyonumuz, sürdürülebilirlik, inovasyon ve kalite odaklı yaklaşımımızla tekstil sektöründe çıtayı sürekli yukarı taşımaktır. Hem estetik hem de fonksiyonel tasarımlarımızla, yaşamın her alanına dokunarak geniş bir müşteri kitlesine ulaşmayı ve bu süreçte iş ortaklarımızla güçlü, uzun vadeli ilişkiler kurmayı önemsiyoruz. Bu doğrultuda, gelecek nesiller için daha yaşanabilir bir dünya bırakmayı hedefleyen bir marka olarak sosyal sorumluluğumuzu her zaman ön planda tutuyoruz.
+        </p>
+        </div>
+        <div class="vision-container">
+            <img id="vision-image" src="img/1.jpeg" alt="Vizyon Görseli" style="width:80%; max-width: 300px;">
+            <div class="vision-buttons">
+                <button onclick="changeVisionImage('img/5.jpeg')">1</button>
+                <button onclick="changeVisionImage('img/6.jpeg')">2</button>
+                <button onclick="changeVisionImage('img/7.jpeg')">3</button>
+                <button onclick="changeVisionImage('img/8.jpeg')">4</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h1>Galeri</h1>
+        <div class="slider-container">
+            <button class="arrow left-arrow" onclick="prevSlide()">←</button>
+            <div class="slider">
+                <div class="slide">
+                    <img src="img/9.jpeg" alt="Galeri Görsel 1">
+                    <img src="img/10.jpeg" alt="Galeri Görsel 2">
+                    <img src="img/11.jpeg" alt="Galeri Görsel 3">
+                </div>
+                <div class="slide">
+                    <img src="img/12.jpeg" alt="Galeri Görsel 4">
+                    <img src="img/13.jpeg" alt="Galeri Görsel 5">
+                    <img src="img/14.jpeg" alt="Galeri Görsel 6">
+                </div>
+                <div class="slide">
+                    <img src="img/15.jpeg" alt="Galeri Görsel 7">
+                    <img src="img/16.jpeg" alt="Galeri Görsel 8">
+                    <img src="img/17.jpeg" alt="Galeri Görsel 9">
+                </div>
+            </div>
+            <button class="arrow right-arrow" onclick="nextSlide()">→</button>
+        </div>
+    </section>
+
+    <section id="contact-us">
+        <h1>Bize Ulaşın</h1>
+        <p>İletişim için aşağıdaki e-posta adresini kullanabilirsiniz:</p>
+        <a href="mailto:erkutcagdastextile@hotmail.com?subject=İletişim Talebi&body=Merhaba,%0Aİletişim talebimi gönderiyorum.">erkutcagdastextile@hotmail.com</a>
+        <p>Veya telefonla iletişime geçebilirsiniz: 0 (242) 450 34 48</p>
+        <p>Bizimle iletişime geçmek için aşağıdaki formu doldurabilirsiniz:</p>
+        <form id="contact-form">
+            <label for="name">Adınız:</label>
+            <input type="text" id="name" name="name" placeholder="Adınızı yazın" required>
+
+            <label for="email">E-posta:</label>
+            <input type="email" id="email" name="email" placeholder="E-posta adresinizi yazın" required>
+
+            <label for="message">Mesajınız:</label>
+            <textarea id="message" name="message" placeholder="Mesajınızı yazın" required></textarea>
+
+            <button type="submit">Gönder</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Websitemiz. Tüm hakları saklıdır.</p>
+    </footer>
+    
+</body>
+</html>
